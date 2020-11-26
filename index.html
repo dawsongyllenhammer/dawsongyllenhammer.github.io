@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>parralax effect</title>
-    <link rel="stylesheet" href="CSS/style8.css">
-    <style>body{
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-        margin: 0%;
-        padding: 0%;
-    }
-
-    .box{height: 100vh;
-        width: 100%;
-        background-image: url(../images-class/2.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        display: table;
-    }
-
-    .box1{height: 100vh;
-        width: 100%;
-        background-image: url(../images-class/3.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        display: table;}
-
-    .box2{height: 100vh;
-        width: 100%;
-        background-image: url(../images-class/4.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        display: table;}
-
-    .box3{height: 100vh;
-        width: 100%;
-        background-image: url(../images-class/5.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        display: table;}
-    
-        h1{margin: 0;
-        color: white;
-         text-align: center;
-        display: table-cell;
-        vertical-align: middle;}
-    
-        
-        
-        </style>
+    <title>Art-Again</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="box">
-        <h1>Home</h1>
-    </div>
+    <div id="wrapper">
+        <header id="toptop">
+            <!-- hamburger -->
+            <span class="icon">&#9776;</span>
+            <div class="logo">
+                <img src="media/logo.jpg" alt="logo">
+            </div><!-- logo -->
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="paints&brushes.html">Paint Supplies</a></li>
+                    <li><a href="paper&canvas.html">Paper &amp; Canvas</a></li>
+                    <li><a href="pencils&pens.html">Pencils &amp; Pens</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul><!-- ul -->
+            </nav><!-- nav -->
+        </header><!-- header -->
+        <!--  -->
+        <div class="banner">
+           <!-- video background -->
+                    <div class="banner-video">
+                        <video muted autoplay loop>
+                            <source src="media/index-banner-2.mp4" type="video/mp4">
+                        </video>
+                    </div><!-- banner video -->
+            <div class="banner-content">
+                <h1 id="top">Welcome to Art-Again </h1>
+                <p>
+                    Your one-stop shop for affordable re-use art supplies! 
+                    <br>
+                </p>
+                <a href="#topheader" class="btn">Browse Our Selection</a>
+            </div><!-- banner-content -->
+        </div><!-- banner -->
+        <main>
+            <div class="about">
+                <h1>About Us</h1>
+                <p>
+                    <h2>Browse a collection of over 10,000 re-sale art supplies! Each seller is obligated to explain the condition of the supplies, as well as any previous projects the supplies have gone through. We also require our sellers to list the initial purchasing price of the product, to ensure that our customers are never paying above the market price. Explore, create, and enjoy!</h5>
+                </p>
+            </div><!-- about -->
 
-    <div class="box1">
-        <h1>About</h1>
-    </div>
+            <div class="nav2">
+                <h1 id="topheader">Our Selection</h1>
 
-    <div class="box2">
-        <h1>Services</h1>
-    </div>
+                <ul>
+                    <li><a href="paints&brushes.html"><h2>Paints &amp; Brushes</h2></a></li><br>
+                    <li><a href="paper&canvas.html"><h2>Paper &amp; Canvas</h2></a></li><br>
+                    <li><a href="pencils&pens.html"><h2>Pencils &amp; Pens</h2></a></li><br>
+                    <li><a href="checkout.html"><h2>Checkout</h2></a></li>
+                </ul><!-- ul -->
+        </div><!-- nav2 -->
 
+            
+            
+            <a href="#toptop" class="btn">Back to Top</a><!-- contact -->
 
-    <div class="box3">
-        <h1>Gallery</h1>
-    </div>
+        </main><!-- main -->
 
-    <div class="box4">
-        <h1>Contact</h1>
-    </div>
+        <footer>
+            Copyright 2020 Dawson gyllenhammer
 
+            <p>Follow Our Socials to Stay Up to Date!</p>
+
+            <div class="social">
+                <a href="#"><img src="social/youtube.png" alt=""></a>
+                <a href="#"><img src="social/instagram.png" alt=""></a>
+                <a href="#"><img src="social/linkedin.png" alt=""></a>
+            </div><!-- social -->
+        </footer><!-- footer -->
+    </div><!-- wrapper -->
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/script-2.js"></script>
+<script src="js/jquery.cycle.all.js"></script>
 </body>
+
 </html>
