@@ -287,6 +287,7 @@ footer {
     background-color: rgb(207, 166, 231);
     text-align: center;
     color: #fff;
+    border-radius: 50px 50px 0 0;
 }
 
 footer p {
