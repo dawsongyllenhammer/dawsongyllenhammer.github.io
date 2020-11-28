@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 .banner {
-    background-image: url(../media/art-bg.jpg);
+    background-image: url(../media/art-bg-2.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 .banner-portfolio {
-    background-image: url(../media/portfolio-bg.jpg);
+    background-image: url(../media/portfolio-bg-2.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 .banner-contact {
-    background-image: url(../media/contact-bg.jpg);
+    background-image: url(../media/contact-bg-2.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -83,7 +83,7 @@ nav ul li a {
 }
 
 .banner-music {
-    background-image: url(../media/music-bg.jpg);
+    background-image: url(../media/music-bg-2.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
