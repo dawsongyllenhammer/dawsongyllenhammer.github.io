@@ -3,7 +3,7 @@
 }
 
 *{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 ul{
@@ -104,7 +104,6 @@ nav ul li a {
 
 .banner-content h1{
     font-size: 60px;
-    text-shadow:0 0 10px rgb(15, 4, 44);
 }
 
 .btn {
