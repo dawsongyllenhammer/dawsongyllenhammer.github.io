@@ -375,7 +375,7 @@ nav ul li a{
     padding:12% ;
     font-size: 20px;
     position: absolute;
-    top: 180px;
+    top: 120px;
 }
 
 .banner-content h1{
@@ -390,7 +390,7 @@ nav ul {
     margin: 0 auto;
     padding: 0;
     max-height: 0;
-    background-color:  rgba(56, 46, 65, 0.6);;
+    background-color:  rgba(56, 46, 65, 0.8);;
     transition: max-height 0.5s;
     position: absolute;
     top: 8px;
