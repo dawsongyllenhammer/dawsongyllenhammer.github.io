@@ -171,7 +171,6 @@ main h1{
     border-bottom: 6px solid rgb(90, 73, 104);
     padding-left: 10px;
     padding-right: 100px;
-    padding-top: 10px;
     margin-top: 0;
 }
 
@@ -383,7 +382,7 @@ nav ul li a{
 }
 
 .banner-content h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
