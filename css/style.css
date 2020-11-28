@@ -395,11 +395,11 @@ nav ul {
     margin: 0 auto;
     padding: 0;
     max-height: 0;
-    background-color:  rgba(56, 46, 65, 0.8);;
+    background-color:  rgba(47, 34, 59, 0.8);;
     transition: max-height 0.5s;
     position: absolute;
     top: 8px;
-    border-radius: 10px;
+    border-radius: 0 0 50px 50px;
     z-index: 4;
 }
 nav ul.show {
