@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');* {
     box-sizing: border-box;
 }
 
@@ -11,12 +10,12 @@ ul{
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
     line-height: 1.5;
     font-size: 20px;
     font-weight: 600;
     color: rgb(44, 18, 3);
-    background-color: rgb(255, 255, 255);  
+    background-color: rgb(191, 235, 252);  
 }
 
 header {
@@ -60,10 +59,37 @@ nav ul li a {
 }
 
 .banner {
+    background-image: url(../media/art-bg.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
+    border: 8px solid rgb(207, 166, 231);
 }
+
+.banner-portfolio {
+    background-image: url(../media/portfolio-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    border: 8px solid rgb(207, 166, 231);
+}
+
+.banner-contact {
+    background-image: url(../media/contact-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    border: 8px solid rgb(207, 166, 231);
+}
+
+.banner-music {
+    background-image: url(../media/music-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    border: 8px solid rgb(207, 166, 231);
+}
+
 
 .banner-content {
     color: #fff;
@@ -74,31 +100,11 @@ nav ul li a {
 
 .banner-content h1{
     font-size: 70px;
+    text-shadow:0 0 10px rgb(15, 4, 44);
 }
 
-.banner-video{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    margin: 0 auto;
-    z-index:-1;
-    border: 8px solid rgb(206, 206, 150);
-}
-
-.banner-video::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height:100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(22, 18, 12, 0.6);
-}
 .btn {
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     border-radius: 10px;
     padding: 10px;
     text-decoration: none;
@@ -107,6 +113,11 @@ nav ul li a {
     width: 200px;
     margin: 40px 0;
     text-align: center;
+    box-shadow: 0 0 10px rgb(15, 4, 44);
+}
+
+.about{
+    border-radius: 10px;
 }
 
 .nav2{
@@ -118,7 +129,7 @@ background-size: 100% 100%;
 }
 
 .nav2 h1{
-    background-color: rgb(206, 206, 150);
+    background-color:rgb(207, 166, 231);
     padding-left: 50px;
     
     font-size: 60px;
@@ -145,38 +156,37 @@ background-size: 100% 100%;
 }
 
 main {
-    width: 80%;
-    margin: 40px auto;
+    width: 90%;
+    margin: 20px auto;
     background-image: url(../media/background-edit-2.jpg);
     background-size: 100%;
+    box-shadow: 0 0 10px rgb(15, 4, 44);
 }
 
 main h1{
-    background-color: rgb(206, 206, 150);
-    border-bottom: 6px solid rgb(110, 97, 82);
+    background-color: rgb(207, 166, 231);
+    border-bottom: 6px solid rgb(90, 73, 104);
     padding-left: 50px;
     padding-right: 100px;
     margin-top: 0;
 }
 
-main h2{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-}
 
-main .btn {
-    border: 5px solid rgb(206, 206, 150);
-    color: white;
-    background-color: rgb(110, 97, 82);
-    font-size: x-large;
+.fixed {
+    color: rgb(207, 166, 231);
+    border: 3px solid rgb(207, 166, 231);
+    font-size: large;
     position: fixed;
-    bottom: 0;
-    right: 20px
+    bottom: 20px;
+    right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(56, 46, 65, 0.8);
 }
 
 .space{
-    border-top: 40px solid white;
+    border-top: 40px solid rgb(207, 166, 231);
 }
 
 .sideleft {
@@ -265,7 +275,7 @@ tr:nth-of-type(odd){
 
 footer {
     padding: 40px;
-    background-color: rgb(206, 206, 150);
+    background-color: rgb(207, 166, 231);
     text-align: center;
     color: #fff;
 }
@@ -340,9 +350,9 @@ textarea:hover {
 }
 
 .icon {
-    color: rgb(206, 206, 150);
+    color: rgb(207, 166, 231);
     position: absolute;
-    font-size: 40px;
+    font-size: 60px;
     top: 25px;
     right: 50px;
     cursor: pointer;
@@ -358,22 +368,14 @@ nav ul li a{
 
 @media only screen and (max-width: 1000px){
 
- body{
-     font-size: 15px;
-     min-width: 640px;
- }
-
-
-.banner-video{
-    background-color: rgb(110, 97, 82);
-}
-
 .banner-content {
     color: #fff;
     width: 100%;
     height: 50%;
     padding:12% ;
     font-size: 20px;
+    position: absolute;
+    top: 180px;
 }
 
 .banner-content h1{
@@ -384,22 +386,23 @@ nav ul li a{
 /* lesson insert */
 nav ul {
     float: none;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     max-height: 0;
-    background-color: rgba(59, 49, 38, 0.7);
+    background-color:  rgba(56, 46, 65, 0.6);;
     transition: max-height 0.5s;
     position: absolute;
-    right: 150px;
     top: 8px;
     border-radius: 10px;
+    z-index: 4;
 }
 nav ul.show {
     max-height: 400px;
 }
 .icon {
     display: block;
+    z-index: 5;
 }
 nav ul li {
     display: block;
@@ -411,11 +414,6 @@ nav ul li a {
 
 .nav2 ul{
     display: inline;
-}
-.banner-content {
-   position: absolute;
-    top: 180px;
-    z-index: -1;
 }
 
 .nav2 h1{
@@ -429,6 +427,16 @@ nav ul li a {
 .logo img{
     height: 60px;
     margin-left: 20px;
+}
+
+}
+
+@media only screen and (max-width: 414px){
+
+main p{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 }
