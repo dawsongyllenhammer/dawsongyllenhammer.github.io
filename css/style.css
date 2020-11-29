@@ -69,6 +69,7 @@ nav ul li a {
     background-size: cover;
     border: 8px solid rgb(207, 166, 231);
     border-radius: 0 0 200px 200px;
+    box-shadow:  0 0 10px rgb(15, 4, 44);
 }
 
 .banner-portfolio {
@@ -78,6 +79,7 @@ nav ul li a {
     background-size: cover;
     border: 8px solid rgb(207, 166, 231);
     border-radius: 0 0 200px 200px;
+    box-shadow:  0 0 10px rgb(15, 4, 44);
 }
 
 .banner-contact {
@@ -87,6 +89,7 @@ nav ul li a {
     background-size: cover;
     border: 8px solid rgb(207, 166, 231);
     border-radius: 0 0 200px 200px;
+    box-shadow:  0 0 10px rgb(15, 4, 44);
 }
 
 .banner-music {
@@ -96,6 +99,7 @@ nav ul li a {
     background-size: cover;
     border: 8px solid rgb(207, 166, 231);
     border-radius: 0 0 200px 200px;
+    box-shadow:  0 0 10px rgb(15, 4, 44);
 }
 
 
@@ -288,6 +292,7 @@ footer {
     text-align: center;
     color: #fff;
     border-radius: 50px 50px 0 0;
+    box-shadow:  0 0 10px rgb(15, 4, 44);
 }
 
 footer p {
