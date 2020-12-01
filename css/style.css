@@ -6,6 +6,11 @@
     letter-spacing: 1px;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
 ul{
     margin: 0;
     padding: 0;
