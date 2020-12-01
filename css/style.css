@@ -137,6 +137,11 @@ nav ul li a {
     border-radius: 10px;
 }
 
+.about a {
+    color:rgb(147, 97, 179);
+}
+
+
 .nav2{
 border-top: 40px solid white;
 border-bottom: 40px solid  white;
