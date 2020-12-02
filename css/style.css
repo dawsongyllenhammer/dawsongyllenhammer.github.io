@@ -117,7 +117,6 @@ nav ul li a {
 
 .banner-content h1{
     font-size: 60px;
-    text-shadow: 0 0 10px  rgb(189, 149, 241);
 }
 
 .btn {
@@ -183,7 +182,7 @@ main {
     background-image: url(../media/background-edit-2.jpg);
     background-size: 100%;
     border-radius: 20px;
-    box-shadow:  0 0 20px rgb(57, 3, 156);
+    box-shadow:  0 0 10px rgb(57, 3, 156);
 }
 
 main h1{
@@ -304,7 +303,7 @@ footer {
     text-align: center;
     color: #fff;
     border-radius: 50px 50px 0 0;
-    box-shadow:  0 0 20px rgb(57, 3, 156);
+    box-shadow:  0 0 10px rgb(57, 3, 156);
 }
 
 footer p {
