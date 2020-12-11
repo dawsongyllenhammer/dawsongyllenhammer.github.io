@@ -383,15 +383,7 @@ textarea:hover {
     color: rgb(88, 87, 87);
 }
 
-.icon {
-    color: rgb(207, 166, 231);
-    position: absolute;
-    font-size: 60px;
-    top: 25px;
-    right: 50px;
-    cursor: pointer;
-    display: none;
-}
+
 
 .about img {
     width: 100%;
