@@ -302,18 +302,22 @@ tr:nth-of-type(odd){
 .floatleft{
     float: left;
     width: 40%;
+    padding-left: 20px;
 }
 
 .floatleft img{
     width: 100%;
+    border-radius: 20px;
 }
 .floatright{
     float: right;
     width: 60%;
+    padding-right: 20px;
 }
 
 .floatright img{
     width: 100%;
+    border-radius: 0px;
 }
 
 .textleft{
