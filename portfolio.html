@@ -1,68 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAWSONS ARTWORK</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>DAWSON'S ARTWORK</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-    <div id="wrapper">
-        <header id="toptop">
-            <!-- hamburger -->
-            <span class="icon">&#9776;</span>
-            <div class="logo">
-                <img src="media/logo.png" alt="logo">
-            </div><!-- logo -->
-            <nav>
-                <ul>
-                    <li><a href="index.html"><b>HOME</b></a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="music.html">MUSIC</a></li>
-                </ul><!-- ul -->
-            </nav><!-- nav -->
-        </header><!-- header -->
-        <!--  -->
-        <div class="banner-portfolio">
-            <div class="banner-content">
-                <h1 id="top">DAWSON'S PORTFOLIO</h1>
+    <div id="loadingDiv">
+        <div class="loader spinner"></div>
+    </div>
+    <!-- <a  href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a> -->
+    
+    <div id="particles-js" class="banner">
+        <!-- <h1><br><br><br><br><br> ^ ^ ^</h1> -->
+        
+    </div>
+    <div class="logo">
+        <!-- <img src="images/CIG-logo-T.png" alt="logo pic"> -->
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="cv.html">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <div class="box color-1 header-T3"><h1 id="topheader-2" class="portfolio-h1">CSCI 202</h1></div>
+            <div class="box color-1 header-3" id="csci">
                 <p>
-                    Digital / Graphite / Colored Pencil / Acrylic
-                    <br>
+                    <!-- (Slightly pretentious self promotion ahead) <br> <br> -->
+                    
+                    <button class="btn btn6">See Project</button><br>
                 </p>
-                <a href="#topheader" class="btn">GALLERY</a>
-            </div><!-- banner-content -->
-        </div><!-- banner -->
-        <main>
-            <div class="about">
-                <h1 id="topheader">PROJECT GALLERY</h1>
+                <p class="read-more-2">
+                    <a href="CS202-Lab6/index.html">Lab Website</a><br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus exercitationem obcaecati consectetur necessitatibus animi iste! Id error hic quos libero ratione veniam rem aut cupiditate, voluptates, possimus non necessitatibus. <br><br>
+                    <button class="btn btn6 scroll"><a href="#topheader-2">Hide Project</a></button><br><hr>
+                </p>
+        </div>
+
+            <div class="box color-1 header-T"><h1 id="topheader" class="portfolio-h1">Honors</h1></div>
+            <div class="box color-1 header">
                 <p>
-                    <a href="honors103.html">Honors 103: Dreams, An Inquiry on Reality</a> <br> <br>
-                    <a href="honors104.html">Honors 104: Rigor Mortis, A Composition of Corpses</a> <br>(Configured Primarily for Desktop)<br>
-                    <a href="phi-website/index.html">Generalizing the Irrational (Math 160 Project)</a> <br> <br>
+                    <!-- (Slightly pretentious self promotion ahead) <br> <br> -->
+                    <button class="btn btn5">See Project</button><br>
                 </p>
-            </div><!-- about -->
-            <a href="portfolio.html" class="fixed">Portfolio</a><!-- contact -->
+                <p class="read-more">
+                    <a href="honors104.html">Rigor Mortis; <small>A Composition of Corpses</small></a><br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quos iste facilis nihil quaerat, sint quisquam autem aliquam eum earum nulla nam ab, iusto qui optio soluta veniam exercitationem doloribus! <br><br>
+                    <button class="btn btn5 scroll"><a href="#topheader">Hide Project</a></button><br><hr>
+                </p>
+            </div>
+            <div class="box color-1 header-T2"><h1 id="topheader-3" class="portfolio-h1">Math 160</h1></div>
+            <div class="box color-1 header-2">
+                <p>
+                    <!-- (Slightly pretentious self promotion ahead) <br> <br> -->
+                    
+                    <button class="btn btn7">See Project</button><br>
+                </p>
+                <p class="read-more-3">
+                    <a href="phi-website/index.html">Generalizing the Irrational;</a><br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reprehenderit id, doloremque corporis veritatis, voluptates commodi animi assumenda, quaerat numquam ab aperiam suscipit molestias amet quis eos voluptas dignissimos! Pariatur? <br><br>
+                    <button class="btn btn7 scroll"><a href="#topheader-3">Hide Project</a></button><br><hr>
+                </p>
+            </div>
+        
+    </div>
 
-        </main><!-- main -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <script src="node_modules/particles.js/demo/js/app.js"></script>
+    <script src="js/pageloader.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
 
-        <footer>
-            Copyright&copy; 2020 Dawson Gyllenhammer
+    <script>
+        $(function(){
+            window.sr = ScrollReveal();
 
-            <p>Follow my Instagram for my most recent work!</p>
+            const sr = ScrollReveal({
+                duration:1000,
+                // reset:true
+            });
 
-            <div class="social">
-                <a target="_blank" href="https://www.instagram.com/dawsons_artwork/"><img src="social/instagram.png" alt=""></a>
-            </div><!-- social -->
-        </footer><!-- footer -->
-    </div><!-- wrapper -->
+            sr.reveal('.navbar', {
+                origin:'bottom',
+                delay:2000,
+                distance:'100px'
+            });
 
-<script src="js/jquery-3.5.1.js"></script>
-<script src="js/script-2.js"></script>
-<script src="js/jquery.cycle.all.js"></script>
+            sr.reveal('.header-3', {
+                delay:500,
+                origin:'right',
+                distance:'100px'
+            });
+
+            sr.reveal('.header', {
+                delay:500,
+                origin:'right',
+                distance:'100px'
+            });
+
+            sr.reveal('.header-2', {
+                delay:500,
+                origin:'right',
+                distance:'100px'
+            });
+
+        });
+    </script>
 </body>
-
 </html>

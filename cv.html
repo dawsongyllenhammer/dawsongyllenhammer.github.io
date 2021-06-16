@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAWSON'S ARTWORK</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="node_modules/baguettebox.js/dist/baguetteBox.css">
+</head>
+<body>
+    <div id="loadingDiv">
+        <div class="loader spinner"></div>
+    </div>
+    <!-- <a  href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a> -->
+    
+    <div id="particles-js" class="banner banner-resume">
+        <!-- <h1><br><br><br><br><br> ^ ^ ^</h1> -->
+        
+    </div>
+    <div class="logo">
+        <!-- <img src="images/CIG-logo-T.png" alt="logo pic"> -->
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="cv.html">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+<br><br>
+
+<div class="container">
+        <div class="box color-1 header-T"><h1 id="topheader" class="gallery-h1">Dawson Gyllenhammer</h1></div>
+        <hr><h2 class="cv">Graphic Designer, Web Designer, &amp; Front-End Web Developer</h2><hr><br>
+        <div class="container-cv gallery">
+            
+            <div class="item cvitem">
+                <h2>University Education</h2><br><br>
+                    <ul>
+                        <li>
+                            Received Diploma from Western Washington University
+                        </li>
+                        <li>
+                            Honors Student with an Honors Minor
+                        </li>
+                        <li>
+                            Received a BA in Design
+                        </li>
+                        <li>
+                            Received a Minor in UI/UX Design
+                        </li>
+                        
+                    </ul>
+                
+            </div>
+            <div class="item cvitem">
+                <h2>Programs &amp; Software</h2><br><br>
+                    <ul>
+                        <li>
+                            Html
+                        </li>
+                        <li>
+                            CSS &amp; SCSS
+                        </li>
+                        <li>
+                            Javascript &amp; Jquery
+                        </li>
+                        <li>
+                            Basic Server-side PHP
+                        </li>
+                        <li>
+                            Adobe Illustrator
+                        </li>
+                        <li>
+                            Adobe Photoshop
+                        </li>
+
+                    </ul>
+            </div>
+
+            <div class="item cvitem">
+                <h2>Personality &amp; Skillsets</h2><br><br>
+                <ul class="cvul">
+                    <li>
+                        Creative personality
+                    </li>
+                    <li>
+                        Efficient, goal-oriented mindset
+                    </li>
+                    <li>
+                        Keen understanding of visual design software
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+</div>
+<br><br><br>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <script src="node_modules/particles.js/demo/js/app.js"></script>
+    <script src="js/pageloader.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(function(){
+            window.sr = ScrollReveal();
+
+            const sr = ScrollReveal({
+                duration:1000,
+                // reset:true
+            });
+
+            sr.reveal('.navbar', {
+                origin:'bottom',
+                delay:2000,
+                distance:'100px'
+            });
+            
+        // lightbox
+            baguetteBox.run('.gallery', {
+                animation: 'fadeIn',
+                overlayBackgroundColor: 'rgba(207, 166, 231, 0.6)',
+            });
+
+        });
+    </script>
+<script src="node_modules/baguettebox.js/dist/baguetteBox.js"></script>
+
+</body>
+</html>

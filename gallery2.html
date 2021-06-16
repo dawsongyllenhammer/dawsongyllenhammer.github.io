@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAWSON'S ARTWORK</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="node_modules/baguettebox.js/dist/baguetteBox.css">
+</head>
+<body>
+    <div id="loadingDiv">
+        <div class="loader spinner"></div>
+    </div>
+    <!-- <a  href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a> -->
+    
+    <div id="particles-js" class="banner banner-gallery">
+        <!-- <h1><br><br><br><br><br> ^ ^ ^</h1> -->
+        
+    </div>
+    <div class="logo">
+        <!-- <img src="images/CIG-logo-T.png" alt="logo pic"> -->
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="cv.html">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <br><br>
+    <div class="pagination flex-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav area-label="Page navigation">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" href="gallery1.html" tabindex="-1">&#60;</a></li>
+                            <li class="page-item"><a class="page-link" href="gallery.html">Digital 2020</a></li>
+                            <li class="page-item"><a class="page-link" href="gallery1.html">Digital 2019</a></li>
+                            <li class="page-item active"><a class="page-link" href="gallery2.html">Traditional</a></li>
+                            <li class="page-item"><a class="page-link" href="gallery2.html">&#62;</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-gallery gallery">
+            <div class="item item1">
+            
+            </div>
+            <div class="item item2">
+                <div class="container slider-banner">
+                    <p>
+                        <div class="slider mt-2">
+                            <a href="gallery.html"><img src="images/roundbrush1-slide.jpg" alt=""></a>
+                            <a href="gallery1.html"><img src="images/psych2-slide.jpg" alt=""></a>
+                            <a href="gallery2.html"><img src="images/trad1-slide.jpg" alt=""></a>
+                            <!-- <img src="images/gal (3).jpeg" alt="">
+                            <img src="images/gal (4).jpeg" alt=""> -->
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="item item3">
+                
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="box color-1 header-T"><h1 id="topheader" class="gallery-h1">Graphite Series</h1></div>
+        <div class="container-gallery gallery">
+        <div class="item">
+            <a href="images/gallery-trad1.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad1.jpg" alt="gallery images">
+            </a>
+        </div>
+        <div class="item">
+            <a href="images/gallery-trad2.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad2.jpg" alt="gallery images">
+            </a>
+        </div>
+        <div class="item">
+            <a href="images/gallery-trad3.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad3.jpg" alt="gallery images">
+            </a>
+        </div>
+        <div class="item">
+            <a href="images/gallery-trad4.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad4.jpg" alt="gallery images">
+            </a>
+        </div>
+        <div class="item">
+            <a href="images/gallery-trad5.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad5.jpg" alt="gallery images">
+            </a>
+        </div>
+        <div class="item">
+            <a href="images/gallery-trad6.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad6.jpg" alt="gallery images">
+            </a>
+        </div>
+        <div class="item">
+            <a href="images/gallery-trad7.jpg" data-caption="Image caption">
+                <img src="images/gallery-trad7.jpg" alt="gallery images">
+            </a>
+        </div>
+        <p> A series of traditional graphite drawings, on both toned and white paper <br>&copy;Dawson's Artwork 2019</p>
+        </div>
+    </div>
+</div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script src="node_modules/particles.js/demo/js/app.js"></script>
+    <script src="js/pageloader.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(function(){
+            $('.slider').cycle({
+                fx: "scrollUp",
+                timeout: 1000,
+                pause: 0
+                
+                // fx, cover, toss, fadezone, growX, growY, ScrollUp, 
+                // scrollDown, turnRight turnLeft, wipe scrollHorz scrollVertical
+
+            });
+
+            window.sr = ScrollReveal();
+
+            const sr = ScrollReveal({
+                duration:1000,
+                // reset:true
+            });
+
+            sr.reveal('.navbar', {
+                origin:'bottom',
+                delay:2000,
+                distance:'100px'
+            });
+            
+        // lightbox
+            baguetteBox.run('.gallery', {
+                animation: 'fadeIn',
+                overlayBackgroundColor: 'rgba(207, 166, 231, 0.6)'
+            });
+
+        });
+    </script>
+<script src="node_modules/baguettebox.js/dist/baguetteBox.js"></script>
+
+</body>
+</html>

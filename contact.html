@@ -1,59 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAWSON'S ARTWORK</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-    <div id="wrapper">
-        <header id="toptop">
-            <!-- hamburger -->
-            <span class="icon">&#9776;</span>
-            <div class="logo">
-                <img src="media/logo.png" alt="logo">
-            </div><!-- logo -->
-            <nav>
-                <ul>
-                    <li><a href="index.html"><b>HOME</b></a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="music.html">MUSIC</a></li>
-                </ul><!-- ul -->
-            </nav><!-- nav -->
-        </header><!-- header -->
-        <!--  -->
-        <div class="banner-contact">
-            <div class="banner-content">
-                <h1 id="top">CONTACT DAWSON</h1>
-                <p>
-                    To ask about commissions, prints, etc.
-                    <br>
-                </p>
-                <a href="mailto:dawsonartworks@gmail.com" class="btn">Click to Email</a>
-            </div><!-- banner-content -->
-        </div><!-- banner -->
-        <main>
-            <a href="portfolio.html" class="fixed">Portfolio</a><!-- contact -->
-        </main><!-- main -->
+    <div id="loadingDiv">
+        <div class="loader spinner"></div>
+    </div>
+    <!-- <a  href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a> -->
+    
+    <div id="particles-js" class="banner banner-contact">
+        <!-- <h1><br><br><br><br><br> ^ ^ ^</h1> -->
+        
+    </div>
+    <div class="logo">
+        <!-- <img src="images/CIG-logo-T.png" alt="logo pic"> -->
+    </div>
 
-        <footer>
-            Copyright&copy; 2020 Dawson Gyllenhammer
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/dawsons_artwork/"><img src="images/insta-gif.gif" alt="" class="gif1"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="cv.html">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
 
-            <p>Follow my Instagram for my most recent work!</p>
+    <div class="container">
+        <br><br><h1 class="header-T">Wanna Talk?</h1>
+                <form action="aftercontact.html" class="contactform" method="POST" autocomplete>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    
+                    <label for="social">Snapchat or Instagram (Optional)</label><br>
+                    <input type="text" name="social" id="social"><br>
 
-            <div class="social">
-                <a target="_blank" href="https://www.instagram.com/dawsons_artwork/"><img src="social/instagram.png" alt=""></a>
-            </div><!-- social -->
-        </footer><!-- footer -->
-    </div><!-- wrapper -->
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email"><br>
 
-<script src="js/jquery-3.5.1.js"></script>
-<script src="js/script-2.js"></script>
-<script src="js/jquery.cycle.all.js"></script>
+                    <label for="message">Write Message (Commisions, Questions)</label><br>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+<br><br>
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <script src="node_modules/particles.js/demo/js/app.js"></script>
+    <script src="js/pageloader.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+
+    <script>
+        $(function(){
+            window.sr = ScrollReveal();
+
+            const sr = ScrollReveal({
+                duration:1000,
+                // reset:true
+            });
+
+            sr.reveal('.navbar', {
+                origin:'bottom',
+                delay:2500,
+                distance:'100px'
+            });
+
+            sr.reveal('form', {
+                origin:'right',
+                delay:500,
+                distance:'100px'
+            });
+
+        });
+    </script>
 </body>
-
 </html>
