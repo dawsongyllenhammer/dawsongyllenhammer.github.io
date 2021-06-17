@@ -10132,6 +10132,7 @@ form .btn {
   #toggle:checked + ul {
     display: block;
     opacity: 1;
+    transition: all .5s;
   }
   .label {
     display: block;
@@ -10140,12 +10141,18 @@ form .btn {
     grid-template-columns: 1fr;
     /* flex-direction: column; */
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     position: absolute;
     top: 100%;
     left: 0;
     opacity: 0;
     overflow: hidden;
+  }
+  nav ul li {
+    padding-top: 10px;
+  }
+  nav ul li a {
+    font-size: 40px;
   }
   .gif1 {
     display: none;
