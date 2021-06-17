@@ -10144,5 +10144,6 @@ form .btn {
     position: fixed;
     top: 1rem;
     left: .5rem;
+    z-index: 10;
   }
 }
