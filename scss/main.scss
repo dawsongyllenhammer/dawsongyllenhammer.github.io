@@ -152,7 +152,6 @@ a{
 // }
 h1{
     color: $color-2;
-    background-color: $color-2;
     //background-image: url(../images/art-bg-about-2.jpg);
     background-image: url(../images/bg-ciggie-h1b.jpg);
     background-attachment: fixed;
@@ -462,9 +461,20 @@ form .btn{
         background-image: url(../images/banner-mobile-2.jpg);
     }
 
-    h1{
-        font-size: 65px ;
+    h1, .header-T3, .header-T, .header-T2{
+        font-size: 65px;
+        width: 100% !important;
+        
+        padding-left: 0;
+        padding-right: 0;
+
+        border-radius: 0px;
     }
+
+    .container{
+        padding: 0 !important;
+    }
+
     .gallery-h1{
         font-size: 40px !important;
     }
