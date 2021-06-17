@@ -9793,7 +9793,7 @@ body {
 }
 
 .gif2 {
-  display: none;
+  width: 0px;
 }
 
 a {
