@@ -172,7 +172,8 @@ h1{
     margin-top: 15px;
     transition: 0.5s;
 
-    height: 130px;
+    //height: 130px;
+    height: auto;
     font-size: 80px;
     padding-top: 10px;
 }
@@ -190,7 +191,8 @@ h1:hover{
 
 .gallery-h1{
     background-image: url(../images/art-bg.jpg);
-    height: 110px !important;
+    //height: 110px !important;
+    height: auto;
     font-size: 60px !important;
     border-radius: 0;
     border: 10px double $color-2 !important;
@@ -461,6 +463,9 @@ form .btn{
     }
 
     h1{
+        font-size: 65px ;
+    }
+    .gallery-h1{
         font-size: 40px !important;
     }
 
