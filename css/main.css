@@ -10078,6 +10078,10 @@ form .btn {
   padding: 20px;
 }
 
+#toggle, .label {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   .slider {
     display: none;
@@ -10095,5 +10099,37 @@ form .btn {
   }
   h1, .h1 {
     font-size: 40px !important;
+  }
+  .label {
+    display: block !important;
+    cursor: pointer;
+  }
+  .fa-bars {
+    font-size: 26px;
+    line-height: 70px;
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+    width: 60px;
+    color: white;
+    z-index: 1;
+  }
+  #toggle:checked + ul {
+    display: block;
+    opacity: 1;
+  }
+  .label {
+    display: block;
+  }
+  nav ul {
+    grid-template-columns: 1fr;
+    /* flex-direction: column; */
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
   }
 }
