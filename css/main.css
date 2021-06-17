@@ -10091,7 +10091,7 @@ form .btn {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll !important;
     background-image: url(../images/banner-mobile-2.jpg);
   }
   h1, .h1 {
