@@ -10087,7 +10087,6 @@ form .btn {
 @media only screen and (max-width: 750px) {
   .banner {
     width: 100% 100%;
-    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
