@@ -10169,4 +10169,7 @@ form .btn {
   .slider {
     display: grid;
   }
+  .container-gallery {
+    margin: 0 !important;
+  }
 }
