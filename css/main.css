@@ -10166,4 +10166,7 @@ form .btn {
     left: .5rem;
     z-index: 10;
   }
+  .slider {
+    display: grid;
+  }
 }
