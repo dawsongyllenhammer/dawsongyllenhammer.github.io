@@ -24,7 +24,13 @@ body{
     background-color: $color-2;
     // background-image: url(../images/ciggie-bg-invert.jpg);
     background-size: 4%;
-    
+    font-size: 15px;
+}
+
+.center-p{
+    //text-align: center;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .navbar{
@@ -384,7 +390,7 @@ form .btn{
 //slider
 
 .slider img{
-    height: 400px;
+    height: 250px;
     width: 100% 100%;
     border-radius: 20px;
 //     background-size: cover;
@@ -425,4 +431,21 @@ form .btn{
     border-left: 1px solid rgb(134, 133, 133);
     border-right: 1px solid rgb(134, 133, 133);
     padding: 20px;
+}
+
+//MEDIA QUERIES
+@media only screen and (max-width: 1200px){
+    .slider{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .banner{
+        background-image: url(../images/banner-mobile.jpg);
+    }
+
+    h1{
+        font-size: 40px !important;
+    }
 }

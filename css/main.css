@@ -9739,6 +9739,12 @@ body {
   color: black;
   background-color: #cfa6e7;
   background-size: 4%;
+  font-size: 15px;
+}
+
+.center-p {
+  margin: 0 auto;
+  width: 90%;
 }
 
 .navbar {
@@ -10033,7 +10039,7 @@ form .btn {
 }
 
 .slider img {
-  height: 400px;
+  height: 250px;
   width: 100% 100%;
   border-radius: 20px;
 }
@@ -10070,4 +10076,19 @@ form .btn {
   border-left: 1px solid #868585;
   border-right: 1px solid #868585;
   padding: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .slider {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .banner {
+    background-image: url(../images/banner-mobile.jpg);
+  }
+  h1, .h1 {
+    font-size: 40px !important;
+  }
 }
