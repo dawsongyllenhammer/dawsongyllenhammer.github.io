@@ -578,7 +578,9 @@ form .btn{
     //cv media queries
 
     .container-cv{
-        margin: 0;
+        margin: 0 auto;
+        display: block;
+        grid-template-columns: 1fr;
     }
 
     .item h2{
