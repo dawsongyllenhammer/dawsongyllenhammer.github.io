@@ -10053,7 +10053,7 @@ form .btn {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   justify-items: center;
   grid-gap: 0;
-  margin: 0.2em 2em 0.2em 2em;
+  padding: 0.2em 2em 0.2em 2em;
 }
 
 .cv {
@@ -10180,5 +10180,15 @@ form .btn {
   }
   .container-gallery {
     margin: 0 !important;
+  }
+  .container-cv {
+    margin: 0;
+  }
+  .item h2, .item .h2 {
+    font-size: 40px;
+  }
+  .cvitem {
+    border-left: none;
+    border-right: none;
   }
 }
