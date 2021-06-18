@@ -10186,9 +10186,10 @@ form .btn {
     margin: 0 auto;
     display: block;
     grid-template-columns: 1fr;
+    justify-items: normal !important;
   }
   .item h2, .item .h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .cvitem {
     border-left: none;
