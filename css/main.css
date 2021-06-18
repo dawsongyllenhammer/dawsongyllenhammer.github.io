@@ -10187,12 +10187,20 @@ form .btn {
     display: block;
     grid-template-columns: 1fr;
     justify-items: normal !important;
+    padding: 0 !important;
   }
   .item h2, .item .h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .cvitem {
     border-left: none;
     border-right: none;
+    padding: 0;
+  }
+  .item br {
+    display: none;
+  }
+  .item ul {
+    padding-bottom: 35px;
   }
 }
