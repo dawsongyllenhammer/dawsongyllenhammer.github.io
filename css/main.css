@@ -10179,6 +10179,7 @@ form .btn {
     display: grid;
   }
   .container-gallery {
+    display: block !important;
     margin: 0 !important;
   }
   .container-cv {
