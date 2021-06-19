@@ -392,6 +392,43 @@ form .btn{
     background: black;
 }
 
+    //gallery pagination
+    .mobile-pagination{
+        display: block;
+        text-align: center;
+        margin: auto;
+        border: 10px double black;
+        //width: 60%;
+        width: 500px;
+        ul{
+            background-color: black;
+            padding-left: 0;
+            margin-bottom: 0;
+            padding-bottom: 10px;
+            p{
+                color: white;
+                margin-bottom: 0 !important;
+                font-size: 40px;
+            }
+            li{
+                list-style-type: none;
+                font-size: 25px;
+                a{
+                    //text-decoration: none;
+                    color: $color-2;
+                    transition: all 0.5s;
+                }
+                a:hover{
+                    font-style: italic;
+                    letter-spacing: 5px;
+                }
+                #active{
+                    color: $color-1;
+                }
+            }
+        }
+    }
+
 //slider
 
 .slider img{
@@ -443,9 +480,6 @@ form .btn{
     display: none;
 }
 
-.mobile-pagination{
-    display: none;
-}
 
 //MEDIA QUERIES
 @media only screen and (max-width: 1200px){
@@ -627,31 +661,11 @@ form .btn{
 
     //gallery pagination
     .mobile-pagination{
-        display: block;
-        text-align: center;
-        margin: auto;
-        border: 10px double black;
-        
+        width: 85%;
         ul{
-            background-color: black;
-            padding-left: 0;
-            margin-bottom: 0;
-            p{
-                color: white;
-                margin-bottom: 0 !important;
-            }
             li{
-                list-style-type: none;
-                font-size: 25px;
-                a{
-                    //text-decoration: none;
-                    color: $color-2;
-                }
-                a:hover{
-                    font-style: italic;
-                }
-                #active{
-                    color: $color-1;
+                p{
+                    font-size: 25px;
                 }
             }
         }

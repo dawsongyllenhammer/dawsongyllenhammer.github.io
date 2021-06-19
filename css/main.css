@@ -10041,6 +10041,46 @@ form .btn {
   background: black;
 }
 
+.mobile-pagination {
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: 10px double black;
+  width: 500px;
+}
+
+.mobile-pagination ul {
+  background-color: black;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.mobile-pagination ul p {
+  color: white;
+  margin-bottom: 0 !important;
+  font-size: 40px;
+}
+
+.mobile-pagination ul li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.mobile-pagination ul li a {
+  color: #cfa6e7;
+  transition: all 0.5s;
+}
+
+.mobile-pagination ul li a:hover {
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+.mobile-pagination ul li #active {
+  color: #a7d3e0;
+}
+
 .slider img {
   height: 250px;
   width: 100% 100%;
@@ -10082,10 +10122,6 @@ form .btn {
 }
 
 #toggle, .label {
-  display: none;
-}
-
-.mobile-pagination {
   display: none;
 }
 
@@ -10217,31 +10253,9 @@ form .btn {
     font-size: 25px;
   }
   .mobile-pagination {
-    display: block;
-    text-align: center;
-    margin: auto;
-    border: 10px double black;
+    width: 85%;
   }
-  .mobile-pagination ul {
-    background-color: black;
-    padding-left: 0;
-    margin-bottom: 0;
-  }
-  .mobile-pagination ul p {
-    color: white;
-    margin-bottom: 0 !important;
-  }
-  .mobile-pagination ul li {
-    list-style-type: none;
+  .mobile-pagination ul li p {
     font-size: 25px;
-  }
-  .mobile-pagination ul li a {
-    color: #cfa6e7;
-  }
-  .mobile-pagination ul li a:hover {
-    font-style: italic;
-  }
-  .mobile-pagination ul li #active {
-    color: #a7d3e0;
   }
 }
