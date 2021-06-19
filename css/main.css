@@ -10114,7 +10114,7 @@ form .btn {
     background-image: url(../images/dawsons-resume-mobile.jpg);
   }
   h1, .h1, .header-T3, .header-T, .header-T2 {
-    font-size: 65px;
+    font-size: 55px;
     width: 100% !important;
     padding-left: 0;
     padding-right: 0;
@@ -10211,6 +10211,10 @@ form .btn {
   .item ul {
     padding-top: 10px;
     padding-bottom: 35px;
+  }
+  input[type="text"], input[type="email"], textarea {
+    width: 95%;
+    font-size: 25px;
   }
   .mobile-pagination {
     display: block;

@@ -41,7 +41,7 @@
 
     <div class="container">
         <br><br><h1 class="header-T">Wanna Talk?</h1>
-                <form action="aftercontact.html" class="contactform" method="POST" autocomplete>
+                <!-- <form action="aftercontact.html" class="contactform" method="POST" autocomplete>
                     <label for="name">Name</label><br>
                     <input type="text" name="name" id="name"><br>
                     
@@ -55,6 +55,19 @@
                     <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
 
                     <input type="submit" value="Send Message" class="btn">
+                </form> -->
+                <form action="https://formspree.io/f/mrgrkrwb" method="POST">
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="email">Email:</label><br>
+                        <input type="email" name="_replyto"><br>
+                    
+                    <label for="message">Message: <br><h4>(ie; Commissions, Questions)</h4></small></label> <br>
+                        <textarea name="message" rows="5"></textarea><br>
+                    
+<!-- your other form fields go here -->
+
+                    <button class="btn" type="submit">Send</button>
                 </form>
 <br><br>
 
