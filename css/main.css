@@ -10085,6 +10085,10 @@ form .btn {
   display: none;
 }
 
+.mobile-pagination {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   .slider {
     display: none;
@@ -10207,5 +10211,33 @@ form .btn {
   .item ul {
     padding-top: 10px;
     padding-bottom: 35px;
+  }
+  .mobile-pagination {
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 10px double black;
+  }
+  .mobile-pagination ul {
+    background-color: black;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .mobile-pagination ul p {
+    color: white;
+    margin-bottom: 0 !important;
+  }
+  .mobile-pagination ul li {
+    list-style-type: none;
+    font-size: 25px;
+  }
+  .mobile-pagination ul li a {
+    color: #cfa6e7;
+  }
+  .mobile-pagination ul li a:hover {
+    font-style: italic;
+  }
+  .mobile-pagination ul li #active {
+    color: #a7d3e0;
   }
 }

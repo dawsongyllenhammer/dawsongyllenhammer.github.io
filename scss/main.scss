@@ -443,6 +443,10 @@ form .btn{
     display: none;
 }
 
+.mobile-pagination{
+    display: none;
+}
+
 //MEDIA QUERIES
 @media only screen and (max-width: 1200px){
     .slider{
@@ -613,5 +617,37 @@ form .btn{
         //   list-style-type: circle !important;
         //}
     }
+    }
+
+    //gallery pagination
+    .mobile-pagination{
+        display: block;
+        text-align: center;
+        margin: auto;
+        border: 10px double black;
+        
+        ul{
+            background-color: black;
+            padding-left: 0;
+            margin-bottom: 0;
+            p{
+                color: white;
+                margin-bottom: 0 !important;
+            }
+            li{
+                list-style-type: none;
+                font-size: 25px;
+                a{
+                    //text-decoration: none;
+                    color: $color-2;
+                }
+                a:hover{
+                    font-style: italic;
+                }
+                #active{
+                    color: $color-1;
+                }
+            }
+        }
     }
 }
