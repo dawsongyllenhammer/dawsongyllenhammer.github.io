@@ -9830,6 +9830,10 @@ a {
   background-image: url(../images/dawsons-resume.jpg);
 }
 
+.banner-projects {
+  background-image: url(../images/dawsons-projects.jpg);
+}
+
 .logo img {
   width: 500px;
   height: auto;
@@ -10148,6 +10152,9 @@ form .btn {
   }
   .banner-resume {
     background-image: url(../images/dawsons-resume-mobile.jpg);
+  }
+  .banner-projects {
+    background-image: url(../images/dawsons-projects-mobile.jpg);
   }
   h1, .h1, .header-T3, .header-T, .header-T2 {
     font-size: 55px;
