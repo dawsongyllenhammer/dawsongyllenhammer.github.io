@@ -240,17 +240,12 @@ h1:hover{
     grid-area: header-T;
 }
 
-.header{
+.header, .header-2, .header-3{
     grid-area: header;
-    width: 70%;
+    width: 60%;
     margin: auto;
-    margin-bottom: 50px;
-    //background-image: url(../images/new-bg.jpg);
-    background-image: none;
-    background-size: 2%;
-    // border-top: 5px solid $color-1;
-    // border-right: 5px solid $color-1;
 }
+
 
 .header-T2{
     grid-area: header-T2;
@@ -260,11 +255,6 @@ h1:hover{
     display: none;
 }
 
-.header-2{
-    grid-area: header-2;
-    width: 70%;
-    margin: auto;
-}
 
 #csci{
     width: 70%;
@@ -484,6 +474,15 @@ form .btn{
     display: none;
 }
 
+//Portfolio pages
+.portfolio-pics{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.portfolio-pics:hover{
+    filter: contrast(1.2) grayscale(1);
+}
 
 //MEDIA QUERIES
 @media only screen and (max-width: 1200px){
@@ -678,4 +677,12 @@ form .btn{
             }
         }
     }
+
+
+    //portfolio queries
+    .header, .header-2, .header-3{
+        width: 95%;
+    }
+
+
 }

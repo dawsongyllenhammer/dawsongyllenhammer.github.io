@@ -9918,13 +9918,10 @@ h1:hover, .h1:hover {
   grid-area: header-T;
 }
 
-.header {
+.header, .header-2, .header-3 {
   grid-area: header;
-  width: 70%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 50px;
-  background-image: none;
-  background-size: 2%;
 }
 
 .header-T2 {
@@ -9933,12 +9930,6 @@ h1:hover, .h1:hover {
 
 .read-more, .read-more-2, .read-more-3 {
   display: none;
-}
-
-.header-2 {
-  grid-area: header-2;
-  width: 70%;
-  margin: auto;
 }
 
 #csci {
@@ -10129,6 +10120,15 @@ form .btn {
   display: none;
 }
 
+.portfolio-pics {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.portfolio-pics:hover {
+  filter: contrast(1.2) grayscale(1);
+}
+
 @media only screen and (max-width: 1200px) {
   .slider {
     display: none;
@@ -10264,5 +10264,8 @@ form .btn {
   }
   .mobile-pagination ul li p {
     font-size: 25px;
+  }
+  .header, .header-2, .header-3 {
+    width: 95%;
   }
 }
