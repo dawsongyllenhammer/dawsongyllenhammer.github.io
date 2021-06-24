@@ -253,6 +253,7 @@ h1:hover{
 
 .read-more, .read-more-2, .read-more-3{
     display: none;
+    font-size: 15px;
 }
 
 
@@ -475,6 +476,13 @@ form .btn{
 }
 
 //Portfolio pages
+
+#portfolio-p{
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+}
+
 .portfolio-pics{
     width: 100%;
     transition: 0.5s;
@@ -681,6 +689,10 @@ form .btn{
 
     //portfolio queries
     .header, .header-2, .header-3{
+        width: 95%;
+    }
+
+    #portfolio-p{
         width: 95%;
     }
 
