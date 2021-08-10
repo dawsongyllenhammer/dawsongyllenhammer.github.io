@@ -9855,20 +9855,15 @@ h1, .h1 {
   background-position: center;
   padding: 10px;
   text-align: center;
-  border-radius: 15px;
   margin-bottom: 20px;
   width: 100%;
   margin: auto;
   margin-top: 15px;
   transition: 0.5s;
+  border: 10px double #cfa6e7;
   height: auto;
   font-size: 80px;
   padding-top: 10px;
-}
-
-h1:hover, .h1:hover {
-  color: #a7d3e0;
-  letter-spacing: 10px;
 }
 
 .portfolio-h1 {

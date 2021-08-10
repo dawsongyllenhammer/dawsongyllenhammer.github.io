@@ -167,25 +167,25 @@ h1{
     // padding-top: 40px;
     text-align: center;
     // font-size: 90px;
-    border-radius: 15px;
+    // border-radius: 15px;
     margin-bottom: 20px;
     // height: 200px;
     width: 100%;
     margin: auto;
     margin-top: 15px;
     transition: 0.5s;
-
+    border: 10px double $color-2;
     //height: 130px;
     height: auto;
     font-size: 80px;
     padding-top: 10px;
 }
-h1:hover{
-    // text-decoration: overline;
-    color: $color-1;
-    letter-spacing: 10px;
-    // font-style: italic;
-}
+// h1:hover{
+//     // text-decoration: overline;
+//     color: $color-1;
+//     letter-spacing: 10px;
+//     // font-style: italic;
+// }
 
 .portfolio-h1{
     background-image: url(../images/h1-bg3.jpg) !important;
