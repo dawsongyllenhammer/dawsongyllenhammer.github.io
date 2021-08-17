@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #99a57b;
+  margin: 0%;
+  color: white;
+  font-size: 15px;
+}
+
+.banner1 {
+  background-image: url(../images/skyler-gif-2.gif);
+  width: 100% 100%;
+  height: 700px;
+  background-size: cover;
+  margin: 0;
+  padding: 0%;
+  border-bottom: 20px double #99a57b;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contactbanner {
+  background-image: url(../images/banner-pic-4.jpg);
+  width: 100% 100%;
+  height: 650px;
+  background-size: cover;
+  margin: 0;
+  padding: 0%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  border-bottom: 20px double #99a57b;
+  border-top: 20px double #99a57b;
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  text-shadow: 0 0 10px black;
+}
+
+.banner-text h1 {
+  font-size: 80px;
+}
+
+.youtube {
+  margin: 0 auto;
+  text-align: center;
+}
+
+iframe {
+  margin: auto;
+  display: flex;
+  flex: 1;
+  padding-bottom: 10px;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 25px;
+}
+
+nav ul li {
+  font-size: 20px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: #99a57b;
+}
+
+.lessons-pic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 10px solid white;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+.lessons-pic img {
+  height: auto;
+  width: 100%;
+}
+
+.contactme {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0px;
+}
+
+.contactme h1 {
+  font-size: 60px;
+}
+
+.contactme a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  text-shadow: 0 0 5px black;
+}
+
+.contactme a:hover {
+  color: #99a57b;
+}
+
+.aboutme {
+  font-size: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutme h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.logogrid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.5em;
+}
+
+.logo {
+  width: 80%;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.header {
+  font-size: 60px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 0;
+}
+
+.bar {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.logo:hover {
+  filter: contrast(0.5);
+}
+
+.thumbnail {
+  width: 560px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.thumbnail:hover {
+  filter: contrast(0.8);
+}
+
+.band-p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .logogrid {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .thumbnail, iframe {
+    width: 100%;
+    height: auto;
+  }
+}
