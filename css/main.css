@@ -10130,6 +10130,15 @@ form .btn {
   filter: contrast(1.2) grayscale(1);
 }
 
+.skylogos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skylogos img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 1200px) {
   .slider {
     display: none;

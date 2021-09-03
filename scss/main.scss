@@ -491,6 +491,15 @@ form .btn{
     filter: contrast(1.2) grayscale(1);
 }
 
+//portfolio page logos
+.skylogos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    img{
+        width: 100%;
+    }
+}
+
 //MEDIA QUERIES
 @media only screen and (max-width: 1200px){
     .slider{
