@@ -10139,6 +10139,17 @@ form .btn {
   width: 100%;
 }
 
+.lionlogos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.lionlogos img {
+  width: 100%;
+  border: 3px solid #cfa6e7;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .slider {
     display: none;
