@@ -713,5 +713,11 @@ form .btn{
         width: 95%;
     }
 
+    .lionlogos, .skylogos{
+        grid-template-columns: 1fr;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
