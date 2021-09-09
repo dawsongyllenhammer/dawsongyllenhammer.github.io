@@ -10294,7 +10294,7 @@ form .btn {
   }
   .lionlogos, .skylogos {
     grid-template-columns: 1fr;
-    width: 60%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
